@@ -3,7 +3,6 @@
 import os
 
 try:
-    while True:
-        os.system("bash zenmap")
+    os.system("bash zenmap")
 except KeyboardInterrupt:
     os.system("python3 /data/data/com.termux/files/system/zenmap.py")
