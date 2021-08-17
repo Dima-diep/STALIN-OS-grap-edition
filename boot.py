@@ -59,4 +59,4 @@ os.system("clear && python3 /data/data/com.termux/files/boot/bootanimation/page1
 time.sleep(0.25)
 os.system("clear && python3 /data/data/com.termux/files/boot/bootanimation/page13.py")
 time.sleep(1)
-os.system("mpv /data/data/com.termux/files/boot/login.mp3 && clear && python3 /data/data/com.termux/files/chroot/chrootpy")
+os.system("mpv /data/data/com.termux/files/boot/login.mp3 && clear && python3 /data/data/com.termux/files/chroot/chroot.py")
