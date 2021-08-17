@@ -63,6 +63,7 @@ mv openapp* ../../chroot
 mv ofte.py ../../chroot
 mv ssh* ../../chroot
 mv load.sh ../../boot
+mv geomac* ../../system
 cd ../
 git clone https://github.com/Dima-diep/geomac
 cd geomac
