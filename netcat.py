@@ -3,7 +3,6 @@
 import os
 
 try:
-    while True:
-        os.system("bash /data/data/com.termux/files/system/netcat.sh")
+    os.system("bash /data/data/com.termux/files/system/netcat.sh")
 except KeyboardInterrupt:
     os.system("python3 /data/data/com.termux/files/system/netcat.py")
