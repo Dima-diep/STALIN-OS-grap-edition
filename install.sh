@@ -6,6 +6,7 @@ python3 -m pip install termcolor requests tqdm PTable urllib3 charset-normalizer
 termux-setup-storage
 apt remove zsh -yq
 apt autoremove -yq
+chmod 777 *.py *.sh *.html
 mv /data/data/com.termux/files/home/.bashrc /data/data/com.termux/files/home/.bashrc.old
 cd /data/data/com.termux/files
 mkdir boot
