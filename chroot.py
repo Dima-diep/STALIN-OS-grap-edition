@@ -3,7 +3,6 @@
 import os
 
 try:
-    while True:
-        os.system("bash /data/data/com.termux/files/chroot/chroot.sh")
+    os.system("bash /data/data/com.termux/files/chroot/chroot.sh")
 except KeyboardInterrupt:
     os.system("python3 /data/data/com.termux/files/chroot/chroot.py")
