@@ -30,7 +30,7 @@ case $CHOICE in
             bash /data/data/com.termux/files/chroot/chroot.sh
             ;;
         2)
-            python3 /data/data/com.termux/files/system/proot-sel.py
+            python3 /data/data/com.termux/files/system/proot-in.py
             ;;
         3)
             python3 /data/data/com.termux/files/system/proot-r.py
