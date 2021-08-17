@@ -17,7 +17,6 @@ mkdir bootanimation
 cd ../home/STALIN-OS-grap-edition
 mv boot.py ../../boot
 mv boot.tar.gz ../../boot/bootanimation
-mv *.mp3 ../../boot
 mv grub.* ../../boot
 mv chroot* ../../chroot
 mv check* ../../chroot
