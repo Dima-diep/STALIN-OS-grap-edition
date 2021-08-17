@@ -16,7 +16,6 @@ try:
         os.system("echo \"#!/bin/bash\" > /data/data/com.termux/files/usr/bin/login")
         os.system("echo \"cat ../usr/etc/motd\" >> /data/data/com.termux/files/usr/bin/login")
         os.system("echo \"bash\" >> /data/data/com.termux/files/usr/bin/login")
-        os.system("bash")
     elif a == 'no':
         os.system("python3 /data/data/com.termux/files/system/terminal.py")
 except KeyboardInterrupt:
