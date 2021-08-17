@@ -62,7 +62,7 @@ mv atilo-del* ../../system
 mv openapp* ../../chroot
 mv ofte.py ../../chroot
 mv ssh* ../../chroot
-mv load.sh ../../chroot
+mv load.sh ../../boot
 cd ../
 git clone https://github.com/Dima-diep/geomac
 cd geomac
