@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install python3 mpv termux-api htop-legacy tor libc++ tar wget calc openssh man mc -yq
+apt install python3 dialog termux-api htop-legacy tor libc++ tar wget calc openssh man mc -yq
 apt install telegram-cli -yq
 python3 -m pip install --upgrade pip
 python3 -m pip install termcolor requests tqdm PTable urllib3 charset-normalizer certifi idna
