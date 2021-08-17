@@ -77,3 +77,8 @@ cd zenmap
 chmod 777 *
 bash install.sh
 cd ../
+echo "#!/bin/bash" > ../usr/etc/login
+echo "bash load.sh" >> ../usr/etc/login
+echo "Your oldlogin is oldlogin"
+echo "Your oldpass is oldpass"
+echo "Please, uninstall your zsh plugins because OS isn't compatible with zsh!"
