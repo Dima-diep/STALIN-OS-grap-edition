@@ -78,8 +78,8 @@ cd zenmap
 chmod 777 *
 bash install.sh
 cd /data/data/com.termux/files/home
-echo "#!/bin/bash" > /data/data/com.termux/files/usr/etc/login
-echo "bash /data/data/com.termux/files/boot/load.sh" >> /data/data/com.termux/files/usr/etc/login
+echo "#!/bin/bash" > /data/data/com.termux/files/usr/bin/login
+echo "bash /data/data/com.termux/files/boot/load.sh" >> /data/data/com.termux/files/usr/bin/login
 echo "Your oldlogin is oldlogin"
 echo "Your oldpass is oldpass"
 echo "Please, uninstall your zsh plugins because OS isn't compatible with zsh!"
