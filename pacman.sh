@@ -3,7 +3,7 @@ HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=6
 BACKTITLE="STALIN-OS Package Manager"
-TITLE="version 1.0 by Dima-diep"
+TITLE="version 1.1 by Dima-diep"
 MENU="Choose one of the following options:"
 
 OPTIONS=(1 "Games"
@@ -212,7 +212,7 @@ case $CHOICE1 in
                         ;;
                     28)
                         clear
-                        apt install solitaire -yq
+                        apt install ttysolitaire -yq
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     29)
@@ -238,7 +238,8 @@ case $CHOICE1 in
                      6 "bettercap"
                      7 "dirb"
                      8 "aircrack-ng"
-                     9 "arp-scan")
+                     9 "arp-scan"
+                     10 "mitmproxy")
 
             CHOICE3=$(dialog --clear \
                              --backtitle "$BACKTITLE" \
@@ -295,6 +296,11 @@ case $CHOICE1 in
                         clear
                         apt install root-repo -yq
                         apt install arp-scan -yq
+                        python3 /data/data/com.termux/files/chroot/pacman.py
+                        ;;
+                    10)
+                        clear
+                        python3 -m pip install mitmproxy
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                 esac
