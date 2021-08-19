@@ -35,4 +35,7 @@ case $CHOICE in
         3)
             python3 /data/data/com.termux/files/system/proot-r.py
             ;;
+        4)
+            python3 /data/data/com.termux/files/system/reccheck.py
+            ;;
 esac
