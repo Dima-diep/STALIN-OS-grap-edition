@@ -3,7 +3,7 @@ HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=6
 BACKTITLE="STALIN-OS Package Manager"
-TITLE="version 3.0 by Dima-diep"
+TITLE="version 1.0 by Dima-diep"
 MENU="Choose one of the following options:"
 
 OPTIONS=(1 "Games"
