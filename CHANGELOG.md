@@ -12,3 +12,4 @@
 
 ## 1.1.0
 * Added OS-Recovery Mode
+* Added mitmproxy
