@@ -66,6 +66,7 @@ mv load.sh ../../boot
 mv geomac* ../../system
 mv reccheck.py ../../system
 mv recovery.py ../../system
+mv mitmproxy* ../../chroot
 cd ../
 git clone https://github.com/Dima-diep/geomac
 cd geomac
