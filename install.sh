@@ -64,6 +64,8 @@ mv ofte.py ../../chroot
 mv ssh* ../../chroot
 mv load.sh ../../boot
 mv geomac* ../../system
+mv reccheck.py ../../system
+mv recovery.py ../../system
 cd ../
 git clone https://github.com/Dima-diep/geomac
 cd geomac
