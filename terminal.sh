@@ -3,7 +3,7 @@ HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=6
 BACKTITLE="STALIN-OS grap edition v1.0 by Dima-diep"
-TITLE="Terminal tools v1.0"
+TITLE="Terminal tools v1.1"
 MENU="Choose one of these programs"
 
 OPTIONS=(1 "nmap"
@@ -12,7 +12,8 @@ OPTIONS=(1 "nmap"
          4 "apache"
          5 "geomac"
          6 "bettercap"
-         7 "exit")
+         7 "mitmproxy"
+         8 "exit")
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -49,6 +50,10 @@ case $CHOICE in
             python3 /data/data/com.termux/files/system/terminal.py
             ;;
         7)
+            python3 /data/data/com.termux/files/chroot/mitmproxy.py
+            python3 /data/data/com.termux/files/system/terminal.py
+            ;;
+        8)
             python3 /data/data/com.termux/files/chroot/chroot.py
             ;;
 esac
