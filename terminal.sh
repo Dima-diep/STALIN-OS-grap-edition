@@ -2,7 +2,7 @@
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=6
-BACKTITLE="STALIN-OS grap edition v1.0 by Dima-diep"
+BACKTITLE="STALIN-OS grap edition v1.1 by Dima-diep"
 TITLE="Terminal tools v1.1"
 MENU="Choose one of these programs"
 
