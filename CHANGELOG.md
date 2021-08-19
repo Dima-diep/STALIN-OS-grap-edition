@@ -1,6 +1,7 @@
 # List versions
 
 * 1.0.0
+* 1.1.0
 
 # Releases
 
@@ -8,3 +9,6 @@
 
 * GRUB v1.0 has been released
 * Package Manager v1.0 has been released
+
+## 1.1.0
+* Added OS-Recovery Mode
