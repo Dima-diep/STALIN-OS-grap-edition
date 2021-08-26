@@ -1,9 +1,14 @@
 #!/bin/bash
-apt install python3 dialog termux-api htop-legacy tor libc++ tar wget calc openssh man mc -y &>/dev/null
+ECHO() {
+clear;
+echo "STALIN-OS grap edition v1.2.0 installer";
+echo "Installing...";
+}
+termux-setup-storage
+apt install python dialog termux-api htop-legacy tor libc++ tar wget calc openssh man mc -y &>/dev/null
 apt install telegram-cli -yq &>/dev/null
 python3 -m pip install --upgrade pip >/dev/null
 python3 -m pip install termcolor requests tqdm PTable urllib3 charset-normalizer certifi idna colorama >/dev/null
-termux-setup-storage
 apt remove zsh -y &>/dev/null
 apt autoremove -y &>/dev/null
 chmod 777 *.py *.sh *.html
