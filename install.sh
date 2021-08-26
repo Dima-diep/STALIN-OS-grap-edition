@@ -1,11 +1,11 @@
 #!/bin/bash
-apt install python3 dialog termux-api htop-legacy tor libc++ tar wget calc openssh man mc -yq
-apt install telegram-cli -yq
-python3 -m pip install --upgrade pip
-python3 -m pip install termcolor requests tqdm PTable urllib3 charset-normalizer certifi idna colorama
+apt install python3 dialog termux-api htop-legacy tor libc++ tar wget calc openssh man mc -y &>/dev/null
+apt install telegram-cli -yq &>/dev/null
+python3 -m pip install --upgrade pip >/dev/null
+python3 -m pip install termcolor requests tqdm PTable urllib3 charset-normalizer certifi idna colorama >/dev/null
 termux-setup-storage
-apt remove zsh -yq
-apt autoremove -yq
+apt remove zsh -y &>/dev/null
+apt autoremove -y &>/dev/null
 chmod 777 *.py *.sh *.html
 mv /data/data/com.termux/files/home/.bashrc /data/data/com.termux/files/home/.bashrc.old
 cd /data/data/com.termux/files
@@ -77,7 +77,7 @@ git clone https://github.com/Dima-diep/Music-Termux
 cd Music-Termux
 chmod 777 *
 cd ../
-git clone https://github.com/Dima-diep/zenmap
+git clone https://github.com/Dima-diep/zenmap &>dev/null
 cd zenmap
 chmod 777 *
 bash install.sh
