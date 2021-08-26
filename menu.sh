@@ -54,7 +54,7 @@ case $CHOICE in
         7)
             python3 /data/data/com.termux/files/system/uninstall.py
             cd /data/data/com.termux/files/home
-            git clone https://github.com/Dima-diep/STALIN-OS-grap-edition
+            git clone https://github.com/Dima-diep/STALIN-OS-grap-edition &> /dev/null
             cd STALIN-OS-grap-edition
             chmod 777 install.sh
             bash install.sh
