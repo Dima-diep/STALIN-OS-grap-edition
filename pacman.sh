@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=6
@@ -78,146 +79,146 @@ case $CHOICE1 in
             case $CHOICE2 in
                     1)
                         clear
-                        apt install 0verkill -yq
+                        apt install 0verkill -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     2)
                         clear
-                        apt install angband -yq
+                        apt install angband -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     3)
                         clear
-                        apt install bastet -yq
+                        apt install bastet -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     4)
                         clear
-                        apt install brogue -yq
+                        apt install brogue -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     5)
                         clear
-                        apt install cavez-of-phear -yq
+                        apt install cavez-of-phear -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     6)
                         clear
-                        apt install cboard -yq
+                        apt install cboard -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     7)
                         clear
-                        apt install curse-of-war -yq
+                        apt install curse-of-war -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     8)
                         clear
-                        apt install dmagnetic -yq
+                        apt install dmagnetic -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     9)
                         clear
-                        apt install dopewars -yq
+                        apt install dopewars -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     10)
                         clear
-                        apt install frotz -yq
+                        apt install frotz -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     11)
-                        apt install glulxe -yq
+                        apt install glulxe -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     12)
                         clear
-                        apt install gnuchess -yq
+                        apt install gnuchess -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     13)
                         clear
-                        apt install gnugo -yq
+                        apt install gnugo -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     14)
                         clear
-                        apt install gnushogi -yq
+                        apt install gnushogi -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     15)
                         clear
-                        apt install gnuski -yq
+                        apt install gnuski -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     16)
                         clear
-                        apt install greed -yq
+                        apt install greed -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     17)
                         clear
-                        apt install lexter -yq
+                        apt install lexter -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                          ;;
                     18)
                         clear
-                        apt install moon-buggy -yq
+                        apt install moon-buggy -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     19)
                         clear
-                        apt install moria -yq
+                        apt install moria -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     20)
                         clear
-                        apt install myman -yq
+                        apt install myman -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     21)
                         clear
-                        apt install nethack -yq
+                        apt install nethack -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     22)
                         clear
-                        apt install ninvaders -yq
+                        apt install ninvaders -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     23)
                         clear
-                        apt install nsnake -yq
+                        apt install nsnake -y
                         bash /data/data/com.termux/files/chroot/pacman.sh
                         ;;
                     24)
                         clear
-                        apt install nudoku -yq
+                        apt install nudoku -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     25)
                         clear
-                        apt install open-adventure -yq
+                        apt install open-adventure -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     26)
                         clear
-                        apt install pacman4console -yq
+                        apt install pacman4console -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     27)
                         clear
-                        apt install snake -yq
+                        apt install snake -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     28)
                         clear
-                        apt install ttysolitaire -yq
+                        apt install ttysolitaire -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     29)
                         clear
-                        apt install viletris -yq
+                        apt install viletris -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
             esac
@@ -253,7 +254,7 @@ case $CHOICE1 in
             case $CHOICE3 in
                     1)
                         clear
-                        apt install nmap nmap-ncat -yq
+                        apt install nmap nmap-ncat -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     2)
@@ -267,35 +268,35 @@ case $CHOICE1 in
                         ;;
                     4)
                         clear
-                        apt install sqlite -yq
+                        apt install sqlite -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     5)
                         clear
-                        apt install postgresql -yq
+                        apt install postgresql -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     6)
                         clear
-                        apt install root-repo -yq
-                        apt install bettercap -yq
+                        apt install root-repo -y
+                        apt install bettercap -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     7)
                         clear
-                        apt install dirb -yq
+                        apt install dirb -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     8)
                         clear
-                        apt install root-repo -yq
-                        apt install aircrack-ng -yq
+                        apt install root-repo -y
+                        apt install aircrack-ng -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     9)
                         clear
-                        apt install root-repo -yq
-                        apt install arp-scan -yq
+                        apt install root-repo -y
+                        apt install arp-scan -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     10)
@@ -321,7 +322,8 @@ case $CHOICE1 in
                      6 "golang"
                      7 "php"
                      8 "java"
-                     9 "javascript")
+                     9 "javascript"
+                     10 "javascript-lts")
 
             CHOICE4=$(dialog --clear \
                              --backtitle "$BACKTITLE" \
@@ -379,7 +381,12 @@ case $CHOICE1 in
                         ;;
                     9)
                         clear
-                        apt install nodejs nodejs-lts -yq
+                        apt install nodejs -y
+                        python3 /data/data/com.termux/files/chroot/pacman.py
+                        ;;
+                    10)
+                        clear
+                        apt install nodejs-lts -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
             esac
@@ -410,37 +417,37 @@ case $CHOICE1 in
             case $CHOICE5 in
                     1)
                         clear
-                        apt install nano -yq
+                        apt install nano -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     2)
                         clear
-                        apt install vim -yq
+                        apt install vim -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     3)
                         clear
-                        apt install neovim -yq
+                        apt install neovim -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     4)
                         clear
-                        apt install micro -yq
+                        apt install micro -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     5)
                         clear
-                        apt install emacs -yq
+                        apt install emacs -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     6)
                         clear
-                        apt install joe -yq
+                        apt install joe -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     7)
                         clear
-                        apt install mcedit -yq
+                        apt install mcedit -y
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
             esac
@@ -532,8 +539,8 @@ case $CHOICE1 in
                         ;;
                     2)
                         clear
-                        apt update -yq
-                        apt upgrade -yq
+                        apt update -y
+                        apt upgrade -y
                         python3 -m pip install --upgrade pip
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
@@ -622,6 +629,5 @@ case $CHOICE1 in
         11)
             clear
             bash /data/data/com.termux/files/chroot/exit.sh
-            python3 /data/data/com.termux/files/chroot/pacman.py
             ;;
 esac
