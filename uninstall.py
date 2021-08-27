@@ -13,53 +13,53 @@ try:
     a = input()
 
     if a == 'yes':
-        ECHO
+        ECHO()
         print(colored("|--------------------|", 'green', 'on_grey'))
         print(colored("0%", 'green', 'on_grey'))
         os.system("rm -rf /data/data/com.termux/files/chroot")
-        ECHO
+        ECHO()
         print(colored("|##------------------|", 'green', 'on_grey'))
         print(colored("10%", 'green', 'on_grey'))
         os.system("rm -rf /data/data/com.termux/files/boot")
-        ECHO
+        ECHO()
         print(colored("|####----------------|", 'green', 'on_grey'))
         print(colored("20%", 'green', 'on_grey'))
         os.system("rm -rf /data/data/com.termux/files/system")
-        ECHO
+        ECHO()
         print(colored("|######--------------|", 'green', 'on_grey'))
         print(colored("30%", 'green', 'on_grey'))
         os.system("rm -rf /data/data/com.termux/files/.initialize")
-        ECHO
+        ECHO()
         print(colored("|########------------|", 'green', 'on_grey'))
         print(colored("40%", 'green', 'on_grey'))
         os.system("rm -rf /data/data/com.termux/files/recovery")
-        ECHO
+        ECHO()
         print(colored("|##########----------|", 'green', 'on_grey'))
         print(colored("50%", 'green', 'on_grey'))
         os.system("echo \"#!/bin/bash\" > /data/data/com.termux/files/usr/bin/login")
         os.system("echo \"cat ../usr/etc/motd\" >> /data/data/com.termux/files/usr/bin/login")
         os.system("echo \"bash\" >> /data/data/com.termux/files/usr/bin/login")
-        ECHO
+        ECHO()
         print(colored("|############--------|", 'green', 'on_grey'))
         print(colored("60%", 'green', 'on_grey'))
         os.system("rm -rf /data/data/com.termux/files/home/Music-Termux")
-        ECHO
+        ECHO()
         print(colored("|##############------|", 'green', 'on_grey'))
         print(colored("70%", 'green', 'on_grey'))
         os.system("rm -rf /data/data/com.termux/files/home/Linux-Installer-Termux")
-        ECHO
+        ECHO()
         print(colored("|################----|", 'green', 'on_grey'))
         print(colored("80%", 'green', 'on_grey'))
         os.system("rm -rf /data/data/com.termux/files/home/geomac")
-        ECHO
+        ECHO()
         print(colored("|##################--|", 'green', 'on_grey'))
         print(colored("90%", 'green', 'on_grey'))
         os.system("rm -rf /data/data/com.termux/files/home/zenmap")
-        ECHO
+        ECHO()
         print(colored("|###################-|", 'green', 'on_grey'))
         print(colored("95%", 'green', 'on_grey'))
         os.system("rm -rf /data/data/com.termux/files/home/STALIN-OS-grap-edition")
-        ECHO
+        ECHO()
         print(colored("|####################|", 'green', 'on_grey'))
         print(colored("100%", 'green', 'on_grey'))
         os.system("clear")
