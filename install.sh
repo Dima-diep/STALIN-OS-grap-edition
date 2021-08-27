@@ -11,7 +11,7 @@ termux-setup-storage
 ECHO
 echo "(-------------------------)"
 echo "3%"
-apt install python dialog termux-api htop-legacy tor libc++ tar wget calc openssh man mc -y &>/dev/null
+apt install python dialog termux-api htop-legacy tor libc++ tar wget calc openssh man mc proot proot-distro -y &>/dev/null
 ECHO
 echo "(#------------------------)"
 echo "4%"
