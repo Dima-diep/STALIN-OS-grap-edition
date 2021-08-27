@@ -29,29 +29,36 @@ CHOICE=$(dialog --clear \
 
 case $CHOICE in
         1)
+            clear
             python3 /data/data/com.termux/files/system/uninstall.py
             ;;
         2)
+            clear
             python3 /data/data/com.termux/files/chroot/chlogin.py
             python3 /data/data/com.termux/files/system/menu.py
             ;;
         3)
+            clear
             python3 /data/data/com.termux/files/chroot/chpass.py
             python3 /data/data/com.termux/files/system/menu.py
             ;;
         4)
+            clear
             bash /data/data/com.termux/files/.initialize/initialize.sh
             python3 /data/data/com.termux/files/system/menu.py
             ;;
         5)
+            clear
             python3 /data/data/com.termux/files/.initialize/initialize.py
             python3 /data/data/com.termux/files/system/menu.py
             ;;
         6)
+            clear
             sudo python3 /data/data/com.termux/files/chroot/chroot.py
             python3 /data/data/com.termux/files/chroot/chroot.py
             ;;
         7)
+            clear
             python3 /data/data/com.termux/files/system/uninstall.py
             cd /data/data/com.termux/files/home
             git clone https://github.com/Dima-diep/STALIN-OS-grap-edition &> /dev/null
@@ -61,25 +68,30 @@ case $CHOICE in
             python3 /data/data/com.termux/files/chroot/chroot.py
             ;;
         8)
+            clear
             rm -rf /data/data/com.termux/files/.recovery
             bash /data/data/com.termux/files/.initialize/initialize.sh
             python3 /data/data/com.termux/files/system/menu.py
             ;;
         9)
+            clear
             rm -rf /data/data/com.termux/files/.recovery
             echo "Recovery has been uninstalled"
             sleep 5
             python3 /data/data/com.termux/files/system/menu.py
             ;;
         10)
+            clear
             python3 /data/data/com.termux/files/system/proot-del.py
             python3 /data/data/com.termux/files/system/menu.py
             ;;
         11)
+            clear
             python3 /data/data/com.termux/files/system/atilo-del.py
             python3 /data/data/com.termux/files/system/menu.py
             ;;
         12)
+            clear
             python3 /data/data/com.termux/files/chroot/chroot.py
             ;;
 esac
