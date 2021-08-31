@@ -4,7 +4,7 @@ HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=6
 BACKTITLE="STALIN-OS Package Manager"
-TITLE="version 1.1 by Dima-diep"
+TITLE="version 1.2 by Dima-diep"
 MENU="Choose one of the following options:"
 
 OPTIONS=(1 "Games"
@@ -240,7 +240,8 @@ case $CHOICE1 in
                      7 "dirb"
                      8 "aircrack-ng"
                      9 "arp-scan"
-                     10 "mitmproxy")
+                     10 "mitmproxy"
+                     11 "evil-ssdp")
 
             CHOICE3=$(dialog --clear \
                              --backtitle "$BACKTITLE" \
@@ -302,6 +303,11 @@ case $CHOICE1 in
                     10)
                         clear
                         python3 -m pip install mitmproxy
+                        python3 /data/data/com.termux/files/chroot/pacman.py
+                        ;;
+                    11)
+                        clear
+                        git clone https://github.com/initstring/evil-ssdp
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                 esac
