@@ -2,6 +2,7 @@
 
 * 1.0.0
 * 1.1.0
+* 1.1.1
 
 # Releases
 
@@ -13,3 +14,7 @@
 ## 1.1.0
 * Added OS-Recovery Mode
 * Added mitmproxy
+
+## 1.1.1
+
+* Added evil-ssdp
