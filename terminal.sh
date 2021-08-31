@@ -13,7 +13,8 @@ OPTIONS=(1 "nmap"
          5 "geomac"
          6 "bettercap"
          7 "mitmproxy"
-         8 "exit")
+         8 "evil-ssdp"
+         9 "exit")
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -54,6 +55,10 @@ case $CHOICE in
             python3 /data/data/com.termux/files/system/terminal.py
             ;;
         8)
+            python3 /data/data/com.termux/files/home/evil-ssdp/evil-ssdp.py
+            python3 /data/data/com.termux/files/system/terminal.py
+            ;;
+        9)
             python3 /data/data/com.termux/files/chroot/chroot.py
             ;;
 esac
