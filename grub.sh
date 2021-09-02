@@ -7,7 +7,7 @@ trap "bash ~/STALIN-OS-grap-edition/grub.sh" SIGQUIT
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=6
-BACKTITLE="STALIN-OS grap edition v1.1.0 by Dima-diep"
+BACKTITLE="STALIN-OS grap edition v1.1.1 by Dima-diep"
 TITLE="Termux-GRUB v1.0 by Dima-diep"
 MENU="Choose one of the following options"
 
