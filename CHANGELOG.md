@@ -18,3 +18,4 @@
 ## 1.1.1
 
 * Added evil-ssdp
+* Rewrited bootanimation
