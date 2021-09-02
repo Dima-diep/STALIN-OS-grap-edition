@@ -11,7 +11,7 @@ termux-setup-storage
 ECHO
 echo "(-------------------------)"
 echo "3%"
-apt install python dialog termux-api htop-legacy tor libc++ tar wget calc openssh man mc proot proot-distro -y &>/dev/null
+apt install python dialog termux-api htop-legacy tor libc++ wget calc openssh man mc proot proot-distro -y &>/dev/null
 ECHO
 echo "(#------------------------)"
 echo "4%"
@@ -60,20 +60,11 @@ mkdir .initialize
 ECHO
 echo "(###----------------------)"
 echo "15%"
-cd boot
-mkdir bootanimation
-ECHO
-echo "(####---------------------)"
-echo "16%"
 cd ../home/STALIN-OS-grap-edition
 mv boot.py ../../boot
 ECHO
 echo "(####---------------------)"
 echo "17%"
-mv boot.tar.gz ../../boot/bootanimation
-ECHO
-echo "(####---------------------)"
-echo "18%"
 mv grub.* ../../boot
 ECHO
 echo "(#####--------------------)"
