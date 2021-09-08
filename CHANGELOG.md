@@ -4,6 +4,7 @@
 * 1.1.0
 * 1.1.1
 * 1.2.0
+* 1.2.1
 
 # Releases
 
@@ -24,3 +25,7 @@
 ## 1.2.0
 
 * Updated Package Manager and Terminal menu
+
+### 1.2.1
+
+* Added rust and make
