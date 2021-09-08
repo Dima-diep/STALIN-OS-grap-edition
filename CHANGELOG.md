@@ -3,6 +3,7 @@
 * 1.0.0
 * 1.1.0
 * 1.1.1
+* 1.2.0
 
 # Releases
 
@@ -19,3 +20,7 @@
 
 * Added evil-ssdp
 * Rewrited bootanimation
+
+## 1.2.0
+
+* Updated Package Manager and Terminal menu
