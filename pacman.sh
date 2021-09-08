@@ -368,7 +368,7 @@ case $CHOICE1 in
                         ;;
                     3)
                         clear
-                        apt install rust -yq
+                        apt install rust rustc-dev rustanalyzer rustscan -yq
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     4)
