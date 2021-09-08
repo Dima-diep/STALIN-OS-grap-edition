@@ -4,7 +4,7 @@ HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=6
 BACKTITLE="STALIN-OS Package Manager"
-TITLE="version 1.2 by Dima-diep"
+TITLE="version 1.3 by Dima-diep"
 MENU="Choose one of the following options:"
 
 OPTIONS=(1 "Games"
@@ -340,7 +340,8 @@ case $CHOICE1 in
                      8 "java"
                      9 "javascript"
                      10 "javascript-lts"
-                     11 "Exit")
+                     11 "make"
+                     12 "Exit")
 
             CHOICE4=$(dialog --clear \
                              --backtitle "$BACKTITLE" \
@@ -407,6 +408,11 @@ case $CHOICE1 in
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
                     11)
+                        clear
+                        apt install make cmake -y
+                        python3 /data/data/com.termux/files/chroot/pacman.py
+                        ;;
+                    12)
                         clear
                         python3 /data/data/com.termux/files/chroot/pacman.py
                         ;;
