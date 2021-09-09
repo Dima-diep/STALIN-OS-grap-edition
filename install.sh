@@ -260,6 +260,10 @@ echo "90%"
 mv mitmproxy* ../../chroot
 ECHO
 echo "(#######################--)"
+echo "91%"
+mv anshell.sh ../../chroot
+ECHO
+echo "(#######################--)"
 echo "92%"
 cd ../
 git clone https://github.com/Dima-diep/geomac &>/dev/null
