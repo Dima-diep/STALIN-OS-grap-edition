@@ -132,7 +132,8 @@ case $CHOICE in
                                 9 "Run java program"
                                 10 "Run php program"
                                 11 "Run swift program"
-                                12 "Compile rust program")
+                                12 "Compile rust program"
+                                13 "Run android-shell script")
 
                        CHOICE2=$(dialog --clear \
                                         --backtitle "$BACKTITLE" \
@@ -190,6 +191,10 @@ case $CHOICE in
                                    ;;
                                12)
                                    bash /data/data/com.termux/files/chroot/rust.sh
+                                   python3 /data/data/com.termux/files/chroot/chroot.py
+                                   ;;
+                               13)
+                                   bash /data/data/com.termux/files/chroot/anshell.sh
                                    python3 /data/data/com.termux/files/chroot/chroot.py
                                    ;;
                        esac
