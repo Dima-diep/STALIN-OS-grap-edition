@@ -5,6 +5,7 @@
 * 1.1.1
 * 1.2.0
 * 1.2.1
+* 1.2.2
 
 # Releases
 
@@ -29,3 +30,7 @@
 ### 1.2.1
 
 * Added rust and make
+
+### 1.2.2
+
+* Added android-shell
