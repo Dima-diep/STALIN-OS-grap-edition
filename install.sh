@@ -10,258 +10,262 @@ echo "0%"
 termux-setup-storage
 ECHO
 echo "(-------------------------)"
-echo "3%"
+echo "2%"
 apt install python dialog termux-api htop-legacy tor libc++ wget calc openssh man mc proot proot-distro -y &>/dev/null
 ECHO
-echo "(#------------------------)"
-echo "4%"
+echo "(-------------------------)"
+echo "3%"
 apt install telegram-cli -yq &>/dev/null
 ECHO
 echo "(#------------------------)"
-echo "5%"
+echo "4%"
 python3 -m pip install --upgrade pip >/dev/null
 ECHO
 echo "(#------------------------)"
-echo "6%"
+echo "5%"
 python3 -m pip install termcolor requests tqdm PTable urllib3 charset-normalizer certifi idna colorama >/dev/null
 ECHO
 echo "(#------------------------)"
-echo "7%"
+echo "6%"
 apt remove zsh -y &>/dev/null
 ECHO
-echo "(##-----------------------)"
-echo "8%"
+echo "(#------------------------)"
+echo "7%"
 apt autoremove -y &>/dev/null
 ECHO
 echo "(##-----------------------)"
-echo "9%"
+echo "8%"
 chmod 777 *.py *.sh *.html
 ECHO
 echo "(##-----------------------)"
-echo "10%"
+echo "9%"
 mv /data/data/com.termux/files/home/.bashrc /data/data/com.termux/files/home/.bashrc.old
 ECHO
 echo "(##-----------------------)"
-echo "11%"
+echo "10%"
 cd /data/data/com.termux/files
 mkdir boot
 ECHO
-echo "(###----------------------)"
-echo "12%"
+echo "(##-----------------------)"
+echo "11%"
 mkdir chroot
 ECHO
 echo "(###----------------------)"
-echo "13%"
+echo "12%"
 mkdir system
 ECHO
 echo "(###----------------------)"
-echo "14%"
+echo "13%"
 mkdir .initialize
 ECHO
 echo "(###----------------------)"
-echo "15%"
+echo "14%"
 cd ../home/STALIN-OS-grap-edition
-mv boot.py ../../boot
+mv cmake ~/../chroot
+ECHO
+echo "(###----------------------)"
+echo "15%"
+mv boot.py ~/../boot
 ECHO
 echo "(####---------------------)"
 echo "17%"
-mv grub.* ../../boot
+mv grub.* ~/../boot
 ECHO
 echo "(#####--------------------)"
 echo "20%"
-mv chroot* ../../chroot
+mv chroot* ~/../chroot
 ECHO
 echo "(#####--------------------)"
 echo "22%"
-mv check* ../../chroot
+mv check* ~/../chroot
 ECHO
 echo "(######-------------------)"
 echo "26%"
-mv pacman* ../../chroot
+mv pacman* ~/../chroot
 ECHO
 echo "(#######------------------)"
 echo "28%"
-mv git* ../../chroot
+mv git* ~/../chroot
 ECHO
 echo "(#######------------------)"
 echo "31%"
-mv iyp.sh ../../chroot
+mv iyp.sh ~/../chroot
 ECHO
 echo "(########-----------------)"
 echo "32%"
-mv crepack.sh ../../chroot
+mv crepack.sh ~/../chroot
 ECHO
 echo "(########-----------------)"
 echo "33%"
-mv pip* ../../chroot
+mv pip* ~/../chroot
 ECHO
 echo "(########-----------------)"
 echo "35%"
-mv ruby* ../../chroot
+mv ruby* ~/../chroot
 ECHO
 echo "(#########----------------)"
 echo "37%"
-mv exit.sh ../../chroot
+mv exit.sh ~/../chroot
 ECHO
 echo "(#########----------------)"
 echo "38%"
-mv login.py ../../boot
+mv login.py ~/../boot
 ECHO
 echo "(#########----------------)"
 echo "39%"
-mv pass.py ../../boot
+mv pass.py ~/../boot
 ECHO
 echo "(##########---------------)"
 echo "40%"
-mv chlogin.py ../../chroot
+mv chlogin.py ~/../chroot
 ECHO
 echo "(##########---------------)"
 echo "41%"
-mv chpass.py ../../chroot
+mv chpass.py ~/../chroot
 ECHO
 echo "(##########---------------)"
 echo "42%"
-mv make.sh ../../chroot
+mv make.sh ~/../chroot
 ECHO
 echo "(##########---------------)"
 echo "43%"
-mv contacts.py ../../chroot
+mv contacts.py ~/../chroot
 ECHO
 echo "(###########--------------)"
 echo "44%"
-mv game.sh ../../chroot
+mv game.sh ~/../chroot
 ECHO
 echo "(###########--------------)"
 echo "45%"
-mv atilo ../../usr/bin
+mv atilo ~/../usr/bin
 ECHO
 echo "(###########--------------)"
 echo "46%"
-mv findfile.sh ../../chroot
+mv findfile.sh ~/../chroot
 ECHO
 echo "(###########--------------)"
 echo "47%"
-mv python* ../../chroot
+mv python* ~/../chroot
 ECHO
 echo "(############-------------)"
 echo "48%"
-mv compile.sh ../../chroot
+mv compile.sh ~/../chroot
 ECHO
 echo "(############-------------)"
 echo "49%"
-mv golang.sh ../../chroot
+mv golang.sh ~/../chroot
 ECHO
 echo "(############-------------)"
 echo "50%"
-mv java* ../../chroot
+mv java* ~/../chroot
 ECHO
 echo "(#############------------)"
 echo "52%"
-mv php.sh ../../chroot
+mv php.sh ~/../chroot
 ECHO
 echo "(#############------------)"
 echo "53%"
-mv rust.sh ../../chroot
+mv rust.sh ~/../chroot
 ECHO
 echo "(#############------------)"
 echo "54%"
-mv mkdir.sh ../../chroot
+mv mkdir.sh ~/../chroot
 ECHO
 echo "(#############------------)"
 echo "55%"
-mv mkfile.sh ../../chroot
+mv mkfile.sh ~/../chroot
 ECHO
 echo "(##############-----------)"
 echo "56%"
-mv rm* ../../chroot
+mv rm* ~/../chroot
 ECHO
 echo "(##############-----------)"
 echo "58%"
-mv move.sh ../../chroot
+mv move.sh ~/../chroot
 ECHO
 echo "(##############-----------)"
 echo "59%"
-mv cp* ../../chroot
+mv cp* ~/../chroot
 ECHO
 echo "(###############----------)"
 echo "61%"
-mv chmodattr.sh ../../chroot
+mv chmodattr.sh ~/../chroot
 ECHO
 echo "(###############----------)"
 echo "62%"
-mv terminal* ../../system
+mv terminal* ~/../system
 ECHO
 echo "(################---------)"
 echo "64%"
-mv netcat* ../../system
+mv netcat* ~/../system
 ECHO
 echo "(################---------)"
 echo "66%"
-mv zenmap.py ../../system
+mv zenmap.py ~/../system
 ECHO
 echo "(################---------)"
 echo "67%"
-mv apache* ../../system
+mv apache* ~/../system
 ECHO
 echo "(#################--------)"
 echo "69%"
-mv menu* ../../system
+mv menu* ~/../system
 ECHO
 echo "(#################--------)"
 echo "71%"
-mv uninstall.py ../../system
+mv uninstall.py ~/../system
 ECHO
 echo "(##################-------)"
 echo "72%"
-mv proot* ../../system
+mv proot* ~/../system
 ECHO
 echo "(###################------)"
 echo "76%"
-mv atilo-in.py ../../system
+mv atilo-in.py ~/../system
 ECHO
 echo "(###################------)"
 echo "77%"
-mv atilo-r.py ../../system
+mv atilo-r.py ~/../system
 ECHO
 echo "(###################------)"
 echo "78%"
-mv atilo-del* ../../system
+mv atilo-del* ~/../system
 ECHO
 echo "(####################-----)"
 echo "80%"
-mv openapp* ../../chroot
+mv openapp* ~/../chroot
 ECHO
 echo "(####################-----)"
 echo "82%"
-mv ofte.py ../../chroot
+mv ofte.py ~/../chroot
 ECHO
 echo "(####################-----)"
 echo "83%"
-mv ssh* ../../chroot
+mv ssh* ~/../chroot
 ECHO
 echo "(#####################----)"
 echo "85%"
-mv load.sh ../../boot
+mv load.sh ~/../boot
 ECHO
 echo "(#####################----)"
 echo "86%"
-mv geomac* ../../system
+mv geomac* ~/../system
 ECHO
 echo "(######################---)"
 echo "88%"
-mv reccheck.py ../../system
+mv reccheck.py ~/../system
 ECHO
 echo "(######################---)"
 echo "89%"
-mv recovery.py ../../system
+mv recovery.py ~/../system
 ECHO
 echo "(######################---)"
 echo "90%"
-mv mitmproxy* ../../chroot
+mv mitmproxy* ~/../chroot
 ECHO
 echo "(#######################--)"
 echo "91%"
-mv anshell.sh ../../chroot
+mv anshell.sh ~/../chroot
 ECHO
 echo "(#######################--)"
 echo "92%"
@@ -297,7 +301,7 @@ bash install.sh
 ECHO
 echo "(#########################-)"
 echo "98%"
-cd /data/data/com.termux/files/home
+cd ~
 touch .bashrc
 ECHO
 echo "(##########################)"
